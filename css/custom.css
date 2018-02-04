@@ -1,0 +1,32 @@
+.pointerr{
+	cursor:pointer;
+}
+.det_week{
+	display:none;
+}
+#portfolio{
+	background-image: url('../images/bg11.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:white;
+}
+.ac{
+	margin:auto;
+}
+ul {
+  margin-top: 0;
+  padding-left: 2em;
+  list-style-type: none;
+  font-size:1.6em;
+}
+li:before {
+  position: absolute;
+  margin-left: -1.3em;
+  font-weight: bold;
+}
+li.tick:before {
+  content: "\2713";
+  color: darkgreen;
+}
